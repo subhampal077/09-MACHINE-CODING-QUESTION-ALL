@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.common {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.common > h2 {
+  padding-top: 16px;
+  cursor: pointer;
+}
+
+button {
+  background: black;
+  padding: 10px 10px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.tab-btn.active {
+  background-color: aquamarine;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}

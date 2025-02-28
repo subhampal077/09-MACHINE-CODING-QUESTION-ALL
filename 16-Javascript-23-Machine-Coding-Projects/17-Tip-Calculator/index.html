@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1>Tip Calculator</h1>
+    <div class="from-container">
+      <div class="input-wrapper">
+        <label for="bill">Bill Amount</label>
+        <input id="bill" type="number" placeholder="Enter Total Bill Amount"/>
+      </div>
+
+      <div class="input-wrapper">
+        <label for="discount">Discount Percentage</label>
+        <p class="discount-value">0</p>
+        <input type="range" min="0" max="50" value="0" id="discount" />
+      </div>
+
+      <div class="input-wrapper">
+        <label for="tip">Tip Percentage</label>
+        <p class="tip-value">0</p>
+        <input type="range" min="0" max="20" value="0" id="tip" />
+      </div>
+
+      <div class="input-wrapper">
+        <label for="customers">No Of Customers</label>
+        <p class="customers-value">0</p>
+        <input type="range" min="0" max="10" value="0" id="customers" />
+      </div>
+
+      <button class="generate-bill">Generate Bill</button>
+
+      <p>Total Tip Paid: <span class="total-tip"></span></p>
+      <p>Total Amount To Pay: <span class="total-amount"></span></p>
+      <p>Each Customer to Pay: <span class="each-customer"></span></p>
+    </div>
+  </body>
+</html>

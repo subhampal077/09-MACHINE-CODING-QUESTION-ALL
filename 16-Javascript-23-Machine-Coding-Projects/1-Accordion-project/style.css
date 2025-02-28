@@ -1,0 +1,15 @@
+.accordion-container > h3 {
+  cursor: pointer;
+}
+
+.accordion-container > p {
+  display: none;
+}
+
+/* .accordion-container.active > p {
+  display: block;
+} */
+
+.active > p {
+  display: block;
+}

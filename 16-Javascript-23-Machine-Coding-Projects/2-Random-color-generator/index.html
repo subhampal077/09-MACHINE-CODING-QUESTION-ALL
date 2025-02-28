@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hex-container common">
+        <button class="hex-btn">Generate Hex Color</button>
+        <h2 class="hex-text"></h2>
+      </div>
+
+      <div class="rgb-container common">
+        <label for="red">Red</label>
+        <input type="range" max="255" min="0" value="0" id="red" />
+
+        <label for="green">Green</label>
+        <input type="range" max="255" min="0" value="0" id="green" />
+
+        <label for="blue">Blue</label>
+        <input type="range" max="255" min="0" value="0" id="blue" />
+
+        <button style="margin-top: 10px" class="rgb-btn">
+          Create Rgb Color
+        </button>
+        <h2 class="rgb-text"></h2>
+      </div>
+    </div>
+  </body>
+</html>

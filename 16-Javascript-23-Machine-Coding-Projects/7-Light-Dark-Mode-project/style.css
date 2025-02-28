@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: blue;
+  --secondary-color: white;
+  --primary-bgColor: white;
+  --secondary-bgColor: black;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: var(--primary-bgColor);
+  border: 2px solid var(--primary-color);
+}
+
+.active button {
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  background-color: var(--secondary-bgColor);
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+.active h2 {
+  color: var(--secondary-color);
+}
+
+.active > div {
+  background-color: var(--secondary-bgColor);
+}

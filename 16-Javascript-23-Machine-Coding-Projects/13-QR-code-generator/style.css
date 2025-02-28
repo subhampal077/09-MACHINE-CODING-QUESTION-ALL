@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+h1 {
+  color: blue;
+}
+
+input {
+  padding: 8px 16px;
+  background-color: yellow;
+  color: black;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: yellow;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid red;
+}
+
+p {
+  font-weight: 600;
+  color: red;
+}

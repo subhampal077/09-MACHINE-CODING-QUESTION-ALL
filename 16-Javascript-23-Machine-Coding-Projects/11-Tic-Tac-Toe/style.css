@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.board {
+  width: 390px;
+  height: 390px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.square {
+  border: 1px solid black;
+  height: 130px;
+  width: 130px;
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.restart-btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: yellow;
+}
