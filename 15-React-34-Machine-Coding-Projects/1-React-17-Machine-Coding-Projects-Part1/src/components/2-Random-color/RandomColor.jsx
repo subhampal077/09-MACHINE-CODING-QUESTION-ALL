@@ -18,7 +18,7 @@ const hexColor = () => {
     }
     setColor(hexColor);
   }
-
+  
   function handleCreateRandomRgbColor() {
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
