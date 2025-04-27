@@ -1,7 +1,7 @@
 // demo of colors
 
-// rgb(256,256,256)
-// #456789 range [1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"]
+// rgb(255,255,255)
+// #456789 range [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"]
 
 import React, { useState } from "react";
 
@@ -10,7 +10,7 @@ const hexColor = () => {
   const [color, setColor] = useState("#000000");
 
   function handleCreateRandomHexColor() {
-    let hexArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+    let hexArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
 
     let hexColor = "#";
     for (let i = 0; i < 6; i++) {
