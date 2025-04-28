@@ -23,7 +23,6 @@ function StarRating({ numOfStars = 5 }) {
     <div className="flex items-center gap-2">
       {[...Array(numOfStars)].map((item, i) => {
         i += 1;
-
         return (
           <FaStar
             className={
