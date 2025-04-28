@@ -45,6 +45,7 @@ const ImageSlider = () => {
         className="absolute top-40 left-2 text-yellow-400"
         size={30}
       />
+      
       {images?.map((image, i) => (
         <img
           key={i}
@@ -55,11 +56,13 @@ const ImageSlider = () => {
           alt=""
         />
       ))}
+      
       <BsArrowRightCircleFill
         onClick={handleNext}
         className="absolute top-40 right-2 text-yellow-400"
         size={30}
       />
+      
       <span className="absolute flex gap-2 cursor-pointer top-72 left-36">
         {images?.map((item, i) => (
           <button
