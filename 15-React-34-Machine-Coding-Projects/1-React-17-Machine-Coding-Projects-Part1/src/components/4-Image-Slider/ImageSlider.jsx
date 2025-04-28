@@ -8,7 +8,7 @@ const ImageSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loading, setLoading] = useState(true);
   const [errorMsg, setErrorMsg] = useState(null);
-
+  
   useEffect(() => {
     setLoading(true);
 
