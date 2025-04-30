@@ -3,7 +3,6 @@ import MenuList from "./MenuList";
 
 const MenuItem = ({ item }) => {
 //   console.log(item);
-
   const [displayChildren, setDisplayChildren] = useState(false);
 
   return (
