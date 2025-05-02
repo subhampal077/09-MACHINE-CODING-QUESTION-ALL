@@ -56,5 +56,4 @@ const menusData = [
     ],
   },
 ];
-
 export default menusData;
