@@ -4,7 +4,6 @@ const container = document.querySelector(".container");
 const loadingErrMsg = document.querySelector(".loading-err-msg");
 
 // 'https://dummyjson.com/users'
-
 async function fetchUsers() {
   loadingErrMsg.textContent = "Loading Please wait!!!";
   try {
