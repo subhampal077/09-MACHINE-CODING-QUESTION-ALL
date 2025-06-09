@@ -3,7 +3,7 @@ import Modal from "./Modal";
 
 const ModalPopup = () => {
   const [showModal, setShowModal] = useState(false);
-
+  
   return (
     <div className="relative text-center ">
       <button
