@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import User from "./User";
 
 const GithubProfileFinder = () => {
-  const [userName, setUserName] = useState("subham055");
+  const [userName, setUserName] = useState("subhampal077");
 
   const [userData, setUserData] = useState([]);
 
